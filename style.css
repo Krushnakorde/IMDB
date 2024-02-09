@@ -1,0 +1,236 @@
+
+
+
+
+
+/* ------for searched bar-------------------------- */
+
+
+
+
+.nav{
+    background-color: rgb(197, 16, 158);
+    height:7vh;
+    font-size: larger;
+    color:rgb(253, 186, 3);
+    display: flex;
+    justify-content:space-evenly;
+
+
+}
+
+
+
+
+
+.search{
+    margin-top: 2px;
+    padding: 4px;
+    width:600px;
+    font-size: 16px;
+    padding-left:20px;
+    border-radius: 10px;
+    background-color: white;
+   
+    
+
+}
+.show{
+    cursor: pointer;
+}
+
+.showSearch{
+    position: relative;
+    color:black;
+    width:600px;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left:20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.searchContainer{
+    position:relative;
+    margin-top:5vh;
+    
+}
+
+/* -----------------------showing movies data------------------ */
+
+.movies{
+    width:100%;
+
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.movies li{
+    width:30%;
+    
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    list-style:none;
+    
+    
+    margin:10px;
+    padding:15px;
+    border-radius:12px;
+    text-align:left;
+    background:#272727;
+
+    
+}
+
+.movies li img{
+    max-width:300px;
+    border-radius:12px;
+    cursor: pointer;
+}
+
+.movies li h2{
+    color:#fff;
+    font-size:1.8em;
+    padding:15px 10px 0;
+    margin-top:auto;
+    font-family:'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+/* ----for favorite button */
+
+
+.fav{
+    height:7vh;
+    /* background-color: rgb(254, 82, 99); */
+    border-radius: 20px;
+}
+
+
+/* --------------for favorite section--------------------------- */
+
+.favEle{
+    height:100px;
+    display: flex;
+    
+    justify-content:left;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+
+.favEle img {
+    margin-left:20px;  
+    max-height:30px;
+    border:2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 3px rgb(144, 139, 139);
+    cursor:pointer;
+    
+    
+}
+
+.favEle span{
+    cursor:pointer;
+    margin-left :30px;
+}
+
+.delete{
+    border-radius: 10px;
+    height:30px;
+    margin-left: 30px;
+    cursor:pointer; 
+}
+
+#showingInfo{
+  position:fixed;
+  top:8vh;
+  left:20%;
+
+  
+  width:750px;
+  background-color: rgb(206, 239, 178);
+  border:5px solid rgb(6, 207, 252)
+  
+    
+}
+
+
+
+
+/* ---------for showing detailed information about movie------------------------------ */
+
+.searchedMovie {
+    padding:0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+
+}
+
+
+
+
+.searchedMovie p {
+    background-color:rgba(128, 128, 128, 0.678);
+    padding:20px;
+    border-radius:20px;
+}
+
+.searchedMovie img{
+    border-radius: 20px;
+    border:2px solid rgb(246, 140, 2);
+    
+    
+
+}
+
+.searchedMovie div a{
+    background-color:rgb(220, 195, 195);
+    border-radius: 20px;
+
+    display:block;
+    padding:10px 10px 10px 20px;
+    
+
+    margin: 2px;
+}
+
+.searchedMovie h3,img{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+.fa-xmark{
+    position: relative;
+    left:97%;
+    top:-45px;
+    display: inline-block;
+    
+
+}
+
+.fa-star{
+    position:relative;
+    left:90%;
+    top:-30px;
+    display:inline-block;
+    width:20px;
+
+}
+
+.fa-star:hover{
+    background-color:red;
+}
+
+
+
+
+
+
+
